@@ -4,10 +4,24 @@ const Body = () => {
   return (
     <main style={styles.body}>
       <div style={styles.card}>
-        <img src={"/avatar-default.png"} alt="John Doe" style={styles.photo} />
+        <img src={"/Petro_Bida_photo.jpg"} alt="Petro Bida" style={styles.photo} />
         <div style={styles.textContainer}>
-          <h2 style={styles.name}>John Doe</h2>
-          <p style={styles.position}>Software engineer</p>
+          <h2 style={styles.name}>Petro Bida</h2>
+          <p style={styles.position}>.NET developer</p>
+        </div>
+        </div>
+    <div style={styles.card}>
+        <img src={"/images/avatar-nazar.jpg"} alt="Nazar Horodetskyi" style={styles.photo} />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>Nazar Horodetskyi</h2>
+          <p style={styles.position}>Business analyst</p>
+        </div>
+        </div>
+      <div style={styles.card}>
+        <img src={"/images/vadym.png"} alt="Vadym Marushka" style={styles.photo} />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>Vadym Marushka</h2>
+          <p style={styles.position}>Project Manager</p>
         </div>
       </div>
     </main>
@@ -48,7 +62,7 @@ const styles = {
   },
   position: {
     fontSize: "0.9em",
-    color: "#6a0dad", // Same purple color as header
+      color: "hotpink", // changed color to pink
     margin: "0.5em 0 0 0",
   },
 };
