@@ -7,7 +7,21 @@ const Body = () => {
         <img src={"/Petro_Bida_photo.jpg"} alt="Petro Bida" style={styles.photo} />
         <div style={styles.textContainer}>
           <h2 style={styles.name}>Petro Bida</h2>
-                  <p style={styles.position}>PZ-21 student</p>
+          <p style={styles.position}>.NET developer</p>
+        </div>
+        </div>
+    <div style={styles.card}>
+        <img src={"/images/avatar-nazar.jpg"} alt="Nazar Horodetskyi" style={styles.photo} />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>Nazar Horodetskyi</h2>
+          <p style={styles.position}>Business analyst</p>
+        </div>
+        </div>
+      <div style={styles.card}>
+        <img src={"/images/vadym.png"} alt="Vadym Marushka" style={styles.photo} />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>Vadym Marushka</h2>
+          <p style={styles.position}>Project Manager</p>
         </div>
       </div>
     </main>
