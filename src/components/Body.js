@@ -18,7 +18,7 @@ const Body = () => {
         </div>
         </div>
         <div style={styles.card}>
-        <img src={"/Petro_Bida_photo.jpg"} alt="Petro Bida" style={styles.photo} />
+        <img src={"/images/petro.jpg"} alt="Petro Bida" style={styles.photo} />
         <div style={styles.textContainer}>
           <h2 style={styles.name}>Petro Bida</h2>
           <p style={styles.position}>.NET developer</p>
@@ -50,8 +50,8 @@ const styles = {
   card: {
     width: "150px",
     padding: "1em",
-    borderRadius: "10px",
-    backgroundColor: "#fff",
+    borderRadius: "15px",
+      backgroundColor: "#f4f4f4",
     boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
     textAlign: "center",
     margin: "1em",
@@ -76,7 +76,7 @@ const styles = {
   },
   position: {
     fontSize: "0.9em",
-      color: "hotpink", // changed color to pink
+      color: "pink", 
     margin: "0.5em 0 0 0",
   },
 };
